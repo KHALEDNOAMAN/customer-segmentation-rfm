@@ -216,3 +216,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project-specific: raw dataset is large & downloadable via the README link — don't commit it
+data/*.csv
+data/*.xlsx
+data/*.xls
+
+# Local SQLite DB used to run the SQL aggregation step
+*.db
+*.sqlite
